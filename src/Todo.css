@@ -1,0 +1,63 @@
+.complete{
+    text-decoration: line-through;
+}
+.box{
+   background: rgb(255,0,48);
+background: linear-gradient(0deg, rgba(255,0,48,1) 0%, rgba(250,0,190,1) 100%);
+    min-width:300px;
+    border-radius: 20px;
+  color: aliceblue;
+    
+    
+    margin:5px
+}
+.unbox{
+  background: rgb(255,231,0);
+background: linear-gradient(0deg, rgba(255,231,0,1) 0%, rgba(202,250,0,1) 100%);
+   color: black;
+min-width:300px;
+    border-radius: 20px;
+  
+    
+    
+    margin:5px
+}
+.trash:hover{
+    animation: trashs 1s;
+    transition: ease-in;
+}
+.trash{
+    margin-left: auto;
+    margin-top: 25px;
+    float: right;
+    color:white;
+    font-size: 30px;
+}
+.untrash{
+    margin-left: auto;
+    margin-top: 25px;
+    float: right;
+    color:rgb(0, 0, 0);
+    font-size: 30px;
+}
+.untrash:hover{
+     animation: trashs 1s;
+    transition: ease-in;
+}
+@keyframes trashs{
+0%{
+    transform: rotate(0);
+}
+25%{
+    transform: rotate(20deg);
+}
+50%{
+    transform: rotate(-20deg);
+}
+75%{
+    transform: rotate(20deg);
+}
+100%{
+    transform: rotate(-20deg);
+}
+}

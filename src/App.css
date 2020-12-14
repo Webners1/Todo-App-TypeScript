@@ -1,0 +1,24 @@
+.main{
+  width: auto;
+  height: 990px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+background: rgb(148,255,177);
+background: radial-gradient(circle, rgba(148,255,177,1) 0%, rgba(0,255,244,1) 100%);
+}
+.add{
+  border-radius: 0px;
+  color: rgb(255, 255, 255);
+ 
+background: rgb(255,0,48);
+background: linear-gradient(0deg, rgba(255,0,48,1) 0%, rgba(250,0,190,1) 100%);
+}
+.add:hover{
+  transition: 1s ease-in;
+  border-radius: 20px;
+  color: rgb(0, 0, 0);
+   background: rgb(255,231,0);
+background: linear-gradient(0deg, rgba(255,231,0,1) 0%, rgba(202,250,0,1) 100%);
+}
